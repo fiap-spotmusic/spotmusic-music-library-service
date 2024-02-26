@@ -8,6 +8,10 @@ O `spotmusic-music-library-service` é um componente crítico da aplicação Spo
 - **Cache:** Redis (Para armazenamento de dados de acesso rápido)
 - **Monitoramento:** Zabbix (Para monitoramento do desempenho do serviço)
 
+## Arquitetura do core da SpotMusic
+
+![Diagrama da Arquitetura do core da SpotMusic](./c4-model-components.drawio.png)
+
 ## Configuração e Instalação
 Para configurar e executar o `spotmusic-music-library-service` localmente, siga os passos abaixo:
 
@@ -32,3 +36,4 @@ flask db upgrade
 
 # Inicie o serviço
 flask run
+```
