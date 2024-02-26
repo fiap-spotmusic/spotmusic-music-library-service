@@ -3,8 +3,8 @@
 O `spotmusic-music-library-service` é um componente crítico da aplicação SpotMusic, responsável pelo gerenciamento da biblioteca de músicas. Este serviço permite a criação, consulta, atualização e exclusão de músicas e álbuns, fornecendo uma interface robusta e escalável para o armazenamento de dados musicais.
 
 ## Pilha Tecnológica
-- **Linguagem de Programação:** Python com Flask
-- **Banco de Dados:** MySQL (Nome do Banco: `spotmusic_library`)
+- **Linguagem de Programação:** NodeJS
+- **Banco de Dados:** PostgreSQL no Amazon RDS
 - **Cache:** Redis (Para armazenamento de dados de acesso rápido)
 - **Monitoramento:** Zabbix (Para monitoramento do desempenho do serviço)
 
